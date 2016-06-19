@@ -1,0 +1,38 @@
+body{
+	background-color:white;
+	font-family: Helvetica;
+	text-align:left;
+}
+h1{
+	color: #37FFCE;
+	font-size: 44px;
+	font-weight: bold;
+}
+p{
+	font-size: 20px;
+	color: #FF8548;
+	}
+ul{
+	font-size: 20px;
+	color: #FF8548;
+}
+#offer{
+	font-style: 32px;
+	color: #5B85FF;
+}
+
+#slogan{
+	color: #F532A4;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 32px;
+}
+#contact{
+	color: #FF7BED;
+}
+nav a{
+	color:#E54842;
+}
+img{
+	width:50%;
+}
