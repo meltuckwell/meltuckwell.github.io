@@ -1,18 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Courgette);
+@import url(https://fonts.googleapis.com/css?family=Lora);
 
 body{
 	background-color:#FEFFF2;
-	font-family: 'Courgette', cursive;
-	text-align:left;
+		text-align:left;
+	font-family: 'Lora', serif;
 }
 h1{
-	color: #78E7FF;
-	font-size: 32px;
+	color: #9DD5FF;
+	font-size: 28px;
 	font-weight: bold;
 	text-align: center
 }
 p{
-	font-size: 44px;
+	font-size: 36px;
 	color: #FF8548;
 	text-align: center;
 }
@@ -22,16 +23,17 @@ ul{
 	text-align: left
 }
 #offer{
-	font-style: 32px;
+	font-style: 28px;
 	color: #5B85FF;
 	text-align: center;
 }
 
 #slogan{
+	font-family: 'Courgette', cursive;
 	color: #F532A4;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 48px;
+	font-size: 54px;
 	text-align: center;
 }
 #contact{
@@ -46,4 +48,7 @@ img{
 	display: block;
     margin-left: auto;
     margin-right: auto }
+}
+a{
+	color: #FF8548;
 }
