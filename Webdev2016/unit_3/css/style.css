@@ -1,38 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+
 body{
-	background-color:white;
-	font-family: Helvetica;
+	background-color:#FEFFF2;
+	font-family: 'Courgette', cursive;
 	text-align:left;
 }
 h1{
-	color: #37FFCE;
-	font-size: 44px;
+	color: #78E7FF;
+	font-size: 32px;
 	font-weight: bold;
+	text-align: center
 }
 p{
-	font-size: 20px;
+	font-size: 44px;
 	color: #FF8548;
-	}
+	text-align: center;
+}
 ul{
-	font-size: 20px;
+	font-size: 32px;
 	color: #FF8548;
+	text-align: left
 }
 #offer{
 	font-style: 32px;
 	color: #5B85FF;
+	text-align: center;
 }
 
 #slogan{
 	color: #F532A4;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 32px;
+	font-size: 48px;
+	text-align: center;
 }
 #contact{
 	color: #FF7BED;
 }
 nav a{
 	color:#E54842;
+	font-size: 20px;
 }
 img{
-	width:50%;
+	width:20%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto }
 }
