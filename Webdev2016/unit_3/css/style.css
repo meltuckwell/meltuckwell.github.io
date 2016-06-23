@@ -3,51 +3,53 @@
 
 body{
 	background-color:#FEFFF2;
-		text-align:left;
-	font-family: 'Lora', serif;
+	background-image: url ("image2.jpg");
+		text-align:center;
+		color: #FF8548;
+		font-size: 20px;
+	font-family: 'Lora', 'Times New Roman' serif;
 }
 h1{
 	color: #9DD5FF;
-	font-size: 28px;
+	font-size: 1em;
 	font-weight: bold;
 	text-align: center
 }
-p{
-	font-size: 36px;
-	color: #FF8548;
-	text-align: center;
-}
-ul{
-	font-size: 32px;
-	color: #FF8548;
-	text-align: left
-}
-#offer{
-	font-style: 28px;
-	color: #5B85FF;
-	text-align: center;
-}
-
 #slogan{
-	font-family: 'Courgette', cursive;
+	font-family: 'Courgette', 'Ariel' cursive;
 	color: #F532A4;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 54px;
+	font-size: 2em;
 	text-align: center;
 }
+
+#offer{
+	color: #5B85FF;
+	text-align: center;
+}
+p{
+	color: #FF8548;
+	font-size: 1em;
+	margin-left: auto;
+    margin-right: auto; 
+}
+.class{
+	color:#F532A4;
+}
 #contact{
-	color: #FF7BED;
+	font-size: 1.5em;
+	color: #F532A4;
 }
 nav a{
 	color:#E54842;
-	font-size: 20px;
+	font-size: 1em;
 }
 img{
 	width:20%;
 	display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto; 
 }
 a{
 	color: #FF8548;
