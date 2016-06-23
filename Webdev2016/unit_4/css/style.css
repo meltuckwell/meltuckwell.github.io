@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+body{
+	background-color:#FEFFF2;
+	background-image: url ("images/image2.jpg");
+		text-align:center;
+		color: #FF8548;
+		font-size: 20px;
+	font-family: 'Lora', 'Times New Roman' serif;
+}
+h1{
+	color: #9DD5FF;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center
+}
+#slogan{
+	font-family: 'Courgette', 'Ariel' cursive;
+	color: #F532A4;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+}
+
+#offer{
+	color: #5B85FF;
+	text-align: center;
+}
+p{
+	color: #FF8548;
+	font-size: 1em;
+	margin-left: auto;
+    margin-right: auto; 
+}
+.class{
+	color:#F532A4;
+}
+#contact{
+	font-size: 1.5em;
+	color: #F532A4;
+}
+.navlinks{
+	font-size:0.5em; 
+	font-family:'Ariel';
+	color:#E54842;
+	background-color:white;
+	padding: 10px 40px 20px 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+img{
+	width:20%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+a{
+	color: #FF8548;
+}
