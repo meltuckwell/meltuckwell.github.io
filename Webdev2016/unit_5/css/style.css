@@ -3,32 +3,31 @@
 
 div #wrapper{
 	background-color: #FFE2B8;
-	boarder: 1px black solid;
+	border: 1px black solid;
 	padding: 20px;
-
 }
 header{
 	background-color: #FFED74;
-	boarder: 1px black solid;
+	border: 1px black solid;
 	padding: 20px;
 }
 nav{
 	background-color: #E8C66A;
-	boarder: 1px black solid;
+	border: 1px black solid;
 	padding: 20px;
 }
 section{
 	background-color: #E89C6C;
-	boarder: 1px black solid;
+	border: 1px black solid;
 	padding: 20px;
 }
 aside{
 	background-color: #FFC675;
-	boarder: 1px black solid;
+	border: 1px black solid;
 	padding: 20px;
 }
 footer{
 	background-color: #FF957E;
-	boarder: 1px black solid;
+	border: 1px black solid;
 	padding: 20px;
 }
