@@ -6,10 +6,19 @@ div .wrapper{
 	border: 1px black solid;
 	padding: 20px;
 }
+
+#your-img {
+    height: auto; 
+    width: auto; 
+    max-width: 250px; 
+    max-height: 250px;
+}
+
 header{
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
+	text-align: center;
 }
 nav{
 	background-color: #E8C66A;
