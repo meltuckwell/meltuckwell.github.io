@@ -1,8 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Courgette);
 @import url(https://fonts.googleapis.com/css?family=Lora);
 
-body{
-	}
+div #wrapper{
+	background-color: #FFE2B8;
+	boarder: 1px black solid;
+	padding: 20px;
+
+}
 header{
 	background-color: #FFED74;
 	boarder: 1px black solid;
