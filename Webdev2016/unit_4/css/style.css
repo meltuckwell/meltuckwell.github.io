@@ -3,17 +3,51 @@
 
 body{
 	background-color:#FEFFF2;
-	background-image: url ("images/image2.jpg");
+	background-image: url("../images/image2.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center center;
 		text-align:center;
 		color: #FF8548;
 		font-size: 20px;
 	font-family: 'Lora', 'Times New Roman' serif;
+}
+
+header{
+	background-color: #FFED74;
+	boarder: 1px black solid;
+	padding: 20px;
+}
+
+nav{
+	background-color: #E8C66A;
+	boarder: 1px black solid;
+	padding: 20px;
+}
+section{
+	background-color: #E89C6C;
+	boarder: 1px black solid;
+	padding: 20px;
+}
+aside{
+	background-color: #FFC675;
+	boarder: 1px black solid;
+	padding: 20px;
+}
+footer{
+	background-color: #FF957E;
+	boarder: 1px black solid;
+	padding: 20px;
 }
 h1{
 	color: #9DD5FF;
 	font-size: 1em;
 	font-weight: bold;
 	text-align: center
+}
+h2{
+	color: #FF8548;
+	font-size: 1em
 }
 #slogan{
 	font-family: 'Courgette', 'Ariel' cursive;
