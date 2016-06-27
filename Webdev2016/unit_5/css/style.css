@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Courgette);
 @import url(https://fonts.googleapis.com/css?family=Lora);
 
-div #wrapper{
+div .wrapper{
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
