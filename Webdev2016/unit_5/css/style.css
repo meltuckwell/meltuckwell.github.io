@@ -13,7 +13,11 @@ div .wrapper{
     max-width: 250px; 
     max-height: 250px;
 }
-
+body{
+	text-align:center;
+	font-size: 16px;
+	font-family: 'Lora', 'Times New Roman' serif;
+}
 header{
 	background-color: #FFED74;
 	border: 1px black solid;
@@ -25,10 +29,25 @@ nav{
 	border: 1px black solid;
 	padding: 20px;
 }
+
+h1{
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center
+}
 section{
 	background-color: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
+}
+
+#slogan{
+	font-family: 'Courgette', 'Ariel' cursive;
+	color: #F532A4;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
 }
 aside{
 	background-color: #FFC675;
