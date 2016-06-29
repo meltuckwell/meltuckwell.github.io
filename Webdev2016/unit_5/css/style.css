@@ -31,7 +31,7 @@ nav{
 }
 
 h1{
-	font-size: 1em;
+	font-size: 1.5em;
 	font-weight: bold;
 	text-align: center
 }
@@ -40,7 +40,9 @@ section{
 	border: 1px black solid;
 	padding: 20px;
 }
-
+p{ 
+font-size: 2em;
+}
 #slogan{
 	font-family: 'Courgette', 'Ariel' cursive;
 	color: #F532A4;
@@ -49,12 +51,24 @@ section{
 	font-size: 2em;
 	text-align: center;
 }
+.classes{
+	font-size:1em;
+	width:30em;
+	text-align:center;
+	margin:auto;
+	background-color: #E89C6C;
+}
+#contact{
+	font-size: 2em;
+	padding:20px;
+}
 aside{
 	background-color: #FFC675;
 	border: 1px black solid;
 	padding: 20px;
 }
 footer{
+	font-size: .5em;
 	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
