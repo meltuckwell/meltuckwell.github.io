@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+div .wrapper{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#your-img {
+    height: auto; 
+    width: auto; 
+    max-width: 250px; 
+    max-height: 250px;
+}
+body{
+	text-align:center;
+	font-size: 16px;
+	font-family: 'Lora', 'Times New Roman' serif;
+}
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1{
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center
+}
+section{
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+p{ 
+font-size: 2em;
+}
+#slogan{
+	font-family: 'Courgette', 'Ariel' cursive;
+	color: #F532A4;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+}
+.classes{
+	font-size:1em;
+	width:30em;
+	text-align:center;
+	margin:auto;
+	background-color: #E89C6C;
+}
+#contact{
+	font-size: 2em;
+	padding:20px;
+}
+aside{
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer{
+	font-size: .5em;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
