@@ -19,29 +19,33 @@ body{
 	font-family: 'Lora', 'Times New Roman' serif;
 }
 header{
-	background-color: #FFED74;
-	border: 1px black solid;
+	background-color: #FFF2FE;
 	padding: 20px;
-	text-align: center;
+	height: 100px;
+}
+#logo{
+	float:left;
 }
 nav{
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
+	font-size:1em;
+	margin:10px;
+	padding: 10px;
+	float:right;
 }
-
-h1{
-	font-size: 1.5em;
-	font-weight: bold;
-	text-align: center
+nav a{
+color:#F532A4;
+text-decoration: none
 }
-section{
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
+a:hover{
+	background-color:#6DBFBA;
 }
-p{ 
-font-size: 2em;
+#about{
+	height:550px;
+	margin:auto;
+	padding:20px;
+	background-color:#FFF2FE; 
+	font-family: 'Courgette', 'Ariel' cursive;
+	font-size:1em;
 }
 #slogan{
 	font-family: 'Courgette', 'Ariel' cursive;
@@ -51,12 +55,53 @@ font-size: 2em;
 	font-size: 2em;
 	text-align: center;
 }
-.classes{
-	font-size:1em;
+#whatwedo{
 	width:30em;
-	text-align:center;
+	font-size:1.5em;
+	color: #F532A4;
 	margin:auto;
-	background-color: #E89C6C;
+}
+a{
+	color:#F532A4;
+	text-decoration: none;
+	font-weight: bold;
+}
+h1{
+	font-family: 'Courgette', 'Ariel' cursive;
+	color: #F532A4;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center
+}
+#two_column{
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px
+}
+#left{
+	background-color: #FFF2FE;
+	border: 1px black solid;
+	padding: 20px;
+	float:left;
+	width:62%;
+}
+#right{
+	background-color: #FFF2FE;
+	border: 1px black solid;
+	padding: 20px;
+	float:right;
+	width:30%;
+}
+p{ 
+font-size: 1.5em;
+}
+.columns{
+	font-size:1em;
+	color:#5DACBF;
+	width:30em;
+	text-align:left;
+	margin:auot;
+	padding:10px;
 }
 #contact{
 	font-size: 2em;
@@ -64,12 +109,21 @@ font-size: 2em;
 }
 aside{
 	background-color: #FFC675;
+	color:#5DACBF;
+	font-size:1.5em;
 	border: 1px black solid;
 	padding: 20px;
 }
 footer{
 	font-size: .5em;
-	background-color: #FF957E;
-	border: 1px black solid;
+	background-color: #FFF2FE;
 	padding: 20px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display:block;
+	font-size:0;
+	content: " ";
+	clear:both;
+	height: 0;
 }
