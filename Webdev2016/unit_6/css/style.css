@@ -20,8 +20,10 @@ body{
 }
 header{
 	background-color: #FFF2FE;
-	padding: 20px;
-	height: 100px;
+	font-size:2em;
+	margin:auto;
+	height:100px;
+	padding-right:100px;
 }
 #logo{
 	float:left;
@@ -29,7 +31,7 @@ header{
 nav{
 	font-size:1em;
 	margin:10px;
-	padding: 10px;
+	padding:20px 20px 20px 20px;
 	float:right;
 }
 nav a{
@@ -46,6 +48,7 @@ a:hover{
 	background-color:#FFF2FE; 
 	font-family: 'Courgette', 'Ariel' cursive;
 	font-size:1em;
+	text-align: center;
 }
 #slogan{
 	font-family: 'Courgette', 'Ariel' cursive;
@@ -70,8 +73,8 @@ h1{
 	font-family: 'Courgette', 'Ariel' cursive;
 	color: #F532A4;
 	font-size: 1.5em;
-	font-weight: bold;
-	text-align: center
+	font-weight:bold;
+	text-align:center
 }
 #two_column{
 	background-color: #FFB7CF;
