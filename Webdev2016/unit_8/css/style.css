@@ -30,7 +30,7 @@ nav{
 }
 nav a{
 	color:#F532A4;
-	/*display: block;*/
+	display: block;
 	width: 16.6666%;
 	float: left;
 	padding-bottom: 2em;
@@ -125,7 +125,7 @@ a{
 	display:block;
 }
 #contact{
-	font-size: 2em;
+	font-size: 1.5em;
 	padding:1.25em;
 }
 aside{
@@ -136,7 +136,7 @@ aside{
 	padding: 1em;
 }
 footer{
-	font-size: .5em;
+	font-size: 1em;
 	background-color: #FFF2FE;
 	padding: 1.25em;
 }
@@ -159,12 +159,21 @@ footer{
 	aside {
 		display: none;
 	}
-
 }
 
 	@media only screen and (max-width: 870px) {
+
 #left {
 	float: none;
 	}
 	}
+
+	@media only screen and (max-width: 550px) {
+
+	nav a {
+		float: none;
+		width: auto;
+		padding: .25em 0;
+		}
+}
 	
