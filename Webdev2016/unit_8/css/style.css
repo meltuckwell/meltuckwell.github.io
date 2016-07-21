@@ -159,14 +159,24 @@ footer{
 	aside {
 		display: none;
 	}
+	#left {
+		width:96%;
+	}
 }
 
 	@media only screen and (max-width: 870px) {
 
-#left {
-	float: none;
+.columns {
+	width:80%;
+}
 	}
+
+	@media only screen and (max-width: 740px) {
+
+	#left {
+		width:90%;
 	}
+}
 
 	@media only screen and (max-width: 550px) {
 
@@ -176,4 +186,6 @@ footer{
 		padding: .25em 0;
 		}
 }
+
+
 	
