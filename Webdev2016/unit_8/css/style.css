@@ -3,7 +3,6 @@
 
 div .wrapper{
 	background-color: #FFE2B8;
-	/*border: 1px black solid;*/
 	padding: 1.25em;
 	width:90%;
 }
@@ -12,7 +11,6 @@ header{
 	background-color: #FFF2FE;
 	font-size:1.5em;
 	height:100px;
-	/*padding-right:100px;*/
 }
 
 #your-img{
@@ -21,32 +19,41 @@ header{
 }
 
 nav{
-	font-size:1em;
+	font-size:1.5em;
 	text-align: center;
 	margin: auto;
 	padding-top: 0.5em;
 	background-color: #FFF2FE;
 	width:100%;
+	height:auto;
+	font-family: 'Lora', 'Times New Roman' serif;
 }
 nav a{
 	color:#F532A4;
 	display: block;
 	width: 16.6666%;
 	float: left;
-	padding-bottom: 2em;
+	padding-bottom: .5em;
 }
 a:hover{
 	background-color:#6DBFBA;
 }
 
 body{
+}
+
+label{
 	text-align:center;
-	font-size: 16px;
+	background-color: #FFF2FE;
+	font-size: 1.5em;
 	font-family: 'Lora', 'Times New Roman' serif;
+	color:#F532A4;
+	width: 100%;
+	padding-bottom: .5em;
+	display:none;
 }
 
 #about{
-	/*height:550px;*/
 	margin:auto;
 	padding:1.25em;
 	background-color:#FFF2FE; 
@@ -58,6 +65,10 @@ body{
 #about img{
 	width:100%;
 	display:block;
+}
+
+#toggle{
+	display: none;
 }
 #whatwedo{
 	width:100%;
@@ -124,10 +135,17 @@ a{
 	width:100%;
 	display:block;
 }
-#contact{
+#getintouch{
 	font-size: 1.5em;
-	padding:1.25em;
+	padding:1em;
+	color: #F532A4;
 }
+#contact a {
+	font-size:1.5em;
+	padding:1em;
+	color: #F532A4;
+}
+
 aside{
 	background-color: #FFC675;
 	color:#5DACBF;
@@ -139,6 +157,7 @@ footer{
 	font-size: 1em;
 	background-color: #FFF2FE;
 	padding: 1.25em;
+	color:#5DACBF;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -168,24 +187,52 @@ footer{
 
 .columns {
 	width:80%;
-}
 	}
+}
 
-	@media only screen and (max-width: 740px) {
+	@media only screen and (max-width: 790px) {
 
 	#left {
 		width:90%;
 	}
-}
 
-	@media only screen and (max-width: 550px) {
+	nav{
+		display:none;
+	}
 
 	nav a {
+		display:block;
 		float: none;
 		width: auto;
 		padding: .25em 0;
 		}
+
+		label{
+		display: block;
+		}
+
+		#toggle:checked + nav {
+		display: block;
+		}
 }
+
+	/*@media only screen and (max-width: 550px) {
+
+	nav a {
+		display:block;
+		float: none;
+		width: auto;
+		padding: .25em 0;
+		}
+
+		label{
+		display: block;
+		}
+
+	#toggle:checked + nav{
+		display: block;
+		}
+}*/
 
 
 	
